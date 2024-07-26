@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1434073F-6133-35DF-95C6-95E4A4A34390}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>exampleB1</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Elte-Fizika\TDK\GEANT\MySim\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exampleB1.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">exampleB1</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Elte-Fizika\TDK\GEANT\MySim\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "D:/Elte-Fizika/TDK/GEANT/program_files/include/Geant4" /external:I "C:/Qt/5.15.16/msvc2019_64/include" /external:I "C:/Qt/5.15.16/msvc2019_64/include/QtGui" /external:I "C:/Qt/5.15.16/msvc2019_64/include/QtANGLE" /external:I "C:/Qt/5.15.16/msvc2019_64/include/QtCore" /external:I "C:/Qt/5.15.16/msvc2019_64/./mkspecs/win32-msvc" /external:I "C:/Qt/5.15.16/msvc2019_64/include/QtOpenGL" /external:I "C:/Qt/5.15.16/msvc2019_64/include/QtWidgets"</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_QT_GLES;G4VIS_USE_TOOLSSG_QT_ZB;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4VIS_USE_OPENGLQT;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;G4VIS_USE_QT3D;G4UI_USE_QT;G4UI_USE_WIN32;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;G4LIB_BUILD_DLL;PTL_BUILD_DLL;G4VIS_USE_TOOLSSG_QT_GLES;G4VIS_USE_TOOLSSG_QT_ZB;G4VIS_USE_TOOLSSG_WINDOWS_ZB;G4VIS_USE_OPENGLQT;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_OPENGL_LIB;QT_WIDGETS_LIB;G4VIS_USE_QT3D;G4UI_USE_QT;G4UI_USE_WIN32;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Elte-Fizika\TDK\GEANT\MySim\include;D:\Elte-Fizika\TDK\GEANT\program_files\include\Geant4;C:\Qt\5.15.16\msvc2019_64\include;C:\Qt\5.15.16\msvc2019_64\include\QtGui;C:\Qt\5.15.16\msvc2019_64\include\QtANGLE;C:\Qt\5.15.16\msvc2019_64\include\QtCore;C:\Qt\5.15.16\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.16\msvc2019_64\include\QtOpenGL;C:\Qt\5.15.16\msvc2019_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Elte-Fizika\TDK\GEANT\MySim\include;D:\Elte-Fizika\TDK\GEANT\program_files\include\Geant4;C:\Qt\5.15.16\msvc2019_64\include;C:\Qt\5.15.16\msvc2019_64\include\QtGui;C:\Qt\5.15.16\msvc2019_64\include\QtANGLE;C:\Qt\5.15.16\msvc2019_64\include\QtCore;C:\Qt\5.15.16\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.16\msvc2019_64\include\QtOpenGL;C:\Qt\5.15.16\msvc2019_64\include\QtWidgets;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4Tree.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4FR.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4GMocren.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4visHepRep.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4RayTracer.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4VRML.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4ToolsSG.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4OpenGL.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4visQt3D.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4vis_management.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4modeling.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4interfaces.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4mctruth.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4geomtext.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4error_propagation.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4readout.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4physicslists.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4run.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4event.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4tracking.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4parmodels.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4processes.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4digits_hits.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4track.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4particles.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4geometry.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4materials.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4graphics_reps.lib;opengl32.lib;C:\Qt\5.15.16\msvc2019_64\lib\Qt5OpenGL.lib;COMCTL32.lib;C:\Qt\5.15.16\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.16\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.16\msvc2019_64\lib\Qt5Core.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4analysis.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4expat.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4zlib.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4intercoms.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4global.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4clhep.lib;D:\Elte-Fizika\TDK\GEANT\program_files\lib\G4ptl.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Elte-Fizika/TDK/GEANT/MySim/Release/exampleB1.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Elte-Fizika/TDK/GEANT/MySim/Release/exampleB1.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Elte-Fizika\TDK\GEANT\MySim\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Elte-Fizika/TDK/GEANT/MySim/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Elte-Fizika/TDK/GEANT/MySim -BD:/Elte-Fizika/TDK/GEANT/MySim --check-stamp-file D:/Elte-Fizika/TDK/GEANT/MySim/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DCore\Qt53DCoreConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DCore\Qt53DCoreConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DExtras\Qt53DExtrasConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DExtras\Qt53DExtrasConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DInput\Qt53DInputConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DInput\Qt53DInputConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DLogic\Qt53DLogicConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DLogic\Qt53DLogicConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRenderConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRenderConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_AssimpSceneImportPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_DefaultGeometryLoaderPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_GLTFGeometryLoaderPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_GLTFSceneExportPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_GLTFSceneImportPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_OpenGLRendererPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt53DRender\Qt53DRender_Scene2DPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gamepad\Qt5GamepadConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gamepad\Qt5GamepadConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gamepad\Qt5Gamepad_QXInputGamepadBackendPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Network\Qt5NetworkConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Network\Qt5Network_QGenericEnginePlugin.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.16\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;D:\Elte-Fizika\TDK\GEANT\MySim\CMakeFiles\3.29.0\CMakeCCompiler.cmake;D:\Elte-Fizika\TDK\GEANT\MySim\CMakeFiles\3.29.0\CMakeCXXCompiler.cmake;D:\Elte-Fizika\TDK\GEANT\MySim\CMakeFiles\3.29.0\CMakeRCCompiler.cmake;D:\Elte-Fizika\TDK\GEANT\MySim\CMakeFiles\3.29.0\CMakeSystem.cmake;D:\Elte-Fizika\TDK\GEANT\MySim\exampleB1.in;D:\Elte-Fizika\TDK\GEANT\MySim\exampleB1.out;D:\Elte-Fizika\TDK\GEANT\MySim\init_vis.mac;D:\Elte-Fizika\TDK\GEANT\MySim\run1.mac;D:\Elte-Fizika\TDK\GEANT\MySim\run2.mac;D:\Elte-Fizika\TDK\GEANT\MySim\vis.mac;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Geant4Config.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Geant4ConfigVersion.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Geant4LibraryDepends-release.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Geant4LibraryDepends.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Geant4PackageCache.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Modules\IntelCompileFeatures.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\Modules\MSVCCompileFeatures.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\PTL\PTLConfig.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\PTL\PTLConfigVersion.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\PTL\PTLTargets-release.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\PTL\PTLTargets.cmake;D:\Elte-Fizika\TDK\GEANT\program_files\lib\cmake\Geant4\UseGeant4.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Elte-Fizika\TDK\GEANT\MySim\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\exampleB1.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1ActionInitialization.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1DetectorConstruction.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1EventAction.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1PhysicsList.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1PhysicsListMessenger.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1PrimaryGeneratorAction.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1Run.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1RunAction.cc" />
+    <ClCompile Include="D:\Elte-Fizika\TDK\GEANT\MySim\src\B1SteppingAction.cc" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1ActionInitialization.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1DetectorConstruction.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1EventAction.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1PhysicsList.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1PhysicsListMessenger.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1PrimaryGeneratorAction.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1Run.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1RunAction.hh" />
+    <ClInclude Include="D:\Elte-Fizika\TDK\GEANT\MySim\include\B1SteppingAction.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Elte-Fizika\TDK\GEANT\MySim\ZERO_CHECK.vcxproj">
+      <Project>{106E8126-9C40-3046-8F34-F14D0D03610C}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

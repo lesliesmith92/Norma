@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Elte-Fizika\TDK\GEANT\MySim\CMakeFiles\a1aebf214bf482dc2aa599cd84431e26\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{0426F42B-7C17-3EE7-8B8F-D8BB28FAD446}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
